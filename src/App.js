@@ -1,10 +1,14 @@
 import './App.css';
+import { Routes,Route, Link } from 'react-router-dom';
 import TodoList from './TodoList/TodoList';
 
 function App() {
   return (
     <>
-      <TodoList />
+    <Routes>
+      <Route path="/" element={<TodoList />} />
+    </Routes>
+    <Link to="/">home</Link>
     </>
   );
 }
