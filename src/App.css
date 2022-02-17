@@ -1,3 +1,6 @@
+body {
+  background-color: #f0efe9;
+}
 .button {
   border-radius: 50%;
   height: 100px;
@@ -11,4 +14,17 @@
   margin: 0 auto !important;
   text-align: center;
   width: 20%;
+}
+.dateday {
+  height: 50px;
+  font-weight: bolder;
+}
+.date {
+  font-size: 30px;
+}
+.month-year {
+  font-size: 15px;
+}
+.day {
+  font-size: 30px;
 }
