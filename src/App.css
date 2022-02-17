@@ -1,7 +1,16 @@
 body {
   background-color: #f0efe9;
 }
+.box {
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 100px;
+  padding: 50px !important;
+}
 .button {
+  position: absolute;
+  margin-left: -50px;
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -11,20 +20,22 @@ body {
   border: 0px;
 }
 .button-center {
-  margin: 0 auto !important;
+  align-items: center;
   text-align: center;
-  width: 20%;
 }
 .dateday {
   height: 50px;
-  font-weight: bolder;
 }
 .date {
-  font-size: 30px;
+  font-size: 32px;
+  margin-top: 0;
 }
 .month-year {
-  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 10px;
 }
 .day {
-  font-size: 30px;
+  font-size: 20px;
+  margin-top: 8px;
 }
