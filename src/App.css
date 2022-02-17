@@ -2,10 +2,8 @@ body {
   background-color: #f0efe9;
 }
 .box {
-  width: 500px;
-  margin: 0 auto;
-  background-color: white;
-  margin-top: 100px;
+  width: 400px;
+  margin: 100px auto;
   padding: 50px !important;
 }
 .button {
@@ -38,4 +36,21 @@ body {
 .day {
   font-size: 20px;
   margin-top: 8px;
+}
+.todo-item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.icon {
+  padding-right: 2px;
+  font-size: 15px;
+  border: 5px solid #65e6af;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  direction: rtl;
+  color: #5ad3a0;
+}
+.icon :hover {
+  cursor: pointer;
 }
